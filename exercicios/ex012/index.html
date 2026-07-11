@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5 </title>
+</head>
+<body>
+    <h1>Iserindo videos hospedados localmente </h1>
+    <p>Este vídeo está hospedado no meu proprio servidor </p>
+
+    <video controls width="400px" poster="imagens/limoes-capa.png" loop ><!-- o navegador vai tentar compiblidade com todos -->
+        <source src="midia/Pexels-VideoWEBM.webm" type="video/webm">
+        <source src="midia/Pexels-VideoMKV.mkv" type="video/mp4">
+        <source src="midia/pexels-videoOGV.ogv" type="video/ogg">
+        <source src="midia/pexels-videoMP4.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p><!-- msg de error -->
+    </video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="400" height="270" src="https://www.youtube.com/embed/cDoo53YgQhY?si=SAX49K2br--w3kdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</body>
+</html>

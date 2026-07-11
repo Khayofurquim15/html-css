@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(211, 212, 212);
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border: black 1px solid;
+        }
+        nav{
+            background-color: rgb(131, 131, 131);
+            padding: 3px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.486);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: aqua;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border: black 1px solid;
+            border-radius: 5px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.349);
+        }
+        footer{
+            background-color: rgba(0, 0, 0, 0.603);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border: black 1px solid;
+        }
+        article{
+            background-color: lightgray;
+            padding: 4px;
+        }
+        article > aside{
+            background-color: rgb(175, 175, 175);
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+        <h1>Meu site.</h1>
+        <nav> <!--Menu de navegação-->
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+            <a href="">Link 4</a>
+            <a href="">Link X</a>
+        </nav>
+    </header>
+
+    <main> <!--Menu--> 
+        <section id="assuntos"> <!--Sessão-->
+            <h3>Esporte, Politica e Tecnologia</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate doloribus quod asperiores sapiente consequuntur enim, quae, placeat, porro molestias veritatis reiciendis? Magni saepe repellat eaque quasi? Fugit assumenda nemo cum.</p>
+        </section>
+
+        <section id="noticias">
+            <article> <!--Artigo-->
+                <h2>Noticia sobre a copa do mundo</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam porro ipsa tenetur sed minima hic magni, molestias reprehenderit veniam enim optio. Unde quas reprehenderit blanditiis dolorem. Doloribus reiciendis consequuntur ad.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva.</p>
+                </aside>
+            </article>
+
+            <article>
+                <h2>Noticia sobre a queda na bolsa de valores.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa deleniti, vitae quidem voluptates nam ipsum dolorem nulla dolor accusantium magnam voluptatibus at voluptatem minus vero quo, aliquam eos eligendi totam?</p>
+            </article>
+        </section>
+    </main>
+
+    <footer> <!--Roda pé-->
+        <p>Site desenvolvido pelo Khayo.</p>
+    </footer>
+
+    <div id="bola"> </div>
+
+    <!--Site semantico-->
+</body>
+</html>

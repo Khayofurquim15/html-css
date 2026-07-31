@@ -17,6 +17,7 @@
             width: 500px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
@@ -33,6 +34,10 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+        thead{
+            position: sticky;
+            top: -1px;
         }
 
         .num{

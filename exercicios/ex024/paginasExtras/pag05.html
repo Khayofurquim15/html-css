@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="#" onclick="clique()" >Clique em mim!</a></p>
+    <p><a href="#" onclick="apagar()">Apagar textos!</a></p>
+    <div id="saida"></div>
+
+    <script>
+        function clique(){
+            const s = document.getElementById('saida');
+            s.innerHTML += '<p>Voce clicou! :) </p>';
+        }
+
+        function apagar(){
+            const s = document.getElementById('saida');
+            s.innerHTML = '';
+        }
+
+    </script>
+</body>
+</html>

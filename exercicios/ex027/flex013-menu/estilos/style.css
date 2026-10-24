@@ -19,24 +19,51 @@ header{
     background-color: gray;
     color: white;
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1{
     border: 1px solid black;
+    flex: 0 0 200px;
 }
 
 header > nav{
     border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 nav > a{
     color: white;
+    background-color: black;
     text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
 }
+
+nav > a:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s;
+}
+
+p{
+    padding: 10px;
+}
+
 
 main{
     background-color: white;
+    padding: 10px;
     margin: 10px;
-    padding: 10px;border-radius: 10px;
+    border-radius: 10px;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.39);
 }
 

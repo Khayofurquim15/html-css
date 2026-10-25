@@ -1,7 +1,16 @@
 @charset "UTF-8";
 
-header > menu {
-    flex-flow: column wrap;
+header {
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+header > h1{
+    flex-basis: 50px;
+}
+
+header > menu > a {
+    flex-flow: column nowrap;
     justify-content: center;
     flex: 1 0 380px;
     display: flex;

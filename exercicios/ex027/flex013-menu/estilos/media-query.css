@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+header > menu {
+    flex-flow: column wrap;
+    justify-content: center;
+    flex: 1 0 380px;
+    display: flex;
+}
+
+main{
+    margin: 0;
+    margin-top: 10px;
+}
+
+body{
+    width: 100%;
+}

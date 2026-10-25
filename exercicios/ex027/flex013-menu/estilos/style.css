@@ -19,6 +19,8 @@ header{
     background-color: gray;
     color: white;
     padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.582);
 
     display: flex;
     flex-flow: row wrap;
@@ -28,17 +30,17 @@ header{
 }
 
 header > h1{
-    border: 1px solid black;
     flex: 0 0 200px;
+    margin-bottom: 10px;
 }
 
-header > nav{
-    border: 1px solid black;
+header > menu{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
 }
-nav > a{
+
+menu> a{
     color: white;
     background-color: black;
     text-decoration: none;
@@ -48,7 +50,7 @@ nav > a{
     text-align: center;
 }
 
-nav > a:hover{
+menu > a:hover{
     background-color: white;
     color: black;
     transition: background-color 0.5s;
@@ -65,5 +67,13 @@ main{
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.39);
+
+    width: 1000px;
 }
 
+
+div.container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}

@@ -13,7 +13,13 @@ body{
     line-height: 1.5em;
 }
 
-p, h1, h2{
+h1,h2 {
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 1.2em;
+}
+
+p{
     margin-bottom: 10px;
     text-align: justify;
 }
@@ -44,23 +50,27 @@ article.media-text {
 
 article > div.text {
     flex: 1 1 500px;
-
-    border: 2px dashed blue;
 }
 
 article > div.media{
-    flex: 1 0 500px;
-
-    border: 2px dashed red;
+    flex: 1 1 500px;
 }
 
 div.media > img {
     display: block;
     margin: auto;
+    width: 80%;
 }
 
 div.media > iframe {
     display: block;
     margin: auto;
-    padding: 0 20px;
+    width: 90%;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(231, 229, 229, 0.795);
+    padding: 10px;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.555);
 }
